@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5KkYtpZoyzZx7zZkUaOBB6sLkMZ5byMopQW9Yek8NT6sG4eEwJ6zr4bj/5erQ7Lq5+naRc1bc9dQgEjuizhLhg==",
+  "dgSpecHash": "xWdRXCHiyliavSlw7o3IE80E8wk7ouw7wADqYHBud7367B4hzDTBuZC3XEZnfmhOgfAQW/rhysoppEI0sO8M8w==",
   "success": true,
   "projectFilePath": "/Users/schpeyeder/Documents/repos/dotnet-core/api/src/api.csproj",
   "expectedPackageFiles": [

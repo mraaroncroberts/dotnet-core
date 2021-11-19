@@ -2,11 +2,6 @@
 // Create the app builder
 var builder = WebApplication.CreateBuilder(args);
 
-// Create a logger
-// Log.Logger = new LoggerConfiguration()
-//     .WriteTo.Console()
-//     .CreateBootstrapLogger();
-
 // Configure our services and pipeline
 builder.Services.AddServiceCollectionConfig();
 

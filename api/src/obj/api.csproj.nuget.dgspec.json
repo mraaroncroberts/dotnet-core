@@ -5,7 +5,7 @@
   },
   "projects": {
     "/Users/schpeyeder/Documents/repos/dotnet-core/api/src/api.csproj": {
-      "version": "0.0.0.1",
+      "version": "1.0.1",
       "restore": {
         "projectUniqueName": "/Users/schpeyeder/Documents/repos/dotnet-core/api/src/api.csproj",
         "projectName": "Api",

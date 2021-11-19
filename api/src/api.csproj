@@ -4,7 +4,6 @@
 		<GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>	
-		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>	
 		<Authors>Aaron C. Roberts</Authors>
 		<Company>Company Name</Company>
 		<Product>Dontnet 6 WebApi</Product>		
@@ -13,16 +12,10 @@
 		<Copyright>Copyright</Copyright>
 		<RepositoryUrl>Repo URL</RepositoryUrl>	
 		<AssemblyTitle>Api</AssemblyTitle>	
-		<AssemblyName>Api</AssemblyName>	  				
-		<!-- 
-				<VersionSuffix>1.0.0.$([System.DateTime]::UtcNow.ToString(mmff))</VersionSuffix>
-			<AssemblyVersion Condition=" '$(VersionSuffix)' == '' ">0.0.0.1</AssemblyVersion>
-			<AssemblyVersion Condition=" '$(VersionSuffix)' != '' ">$(VersionSuffix)</AssemblyVersion>
-			<Version Condition=" '$(VersionSuffix)' == '' ">0.0.1.0</Version>
-			<Version Condition=" '$(VersionSuffix)' != '' ">$(VersionSuffix)</Version> 
-		 -->
-		<FileVersion>0.0.0.1</FileVersion>
-		<Version>0.0.0.1</Version>	
+		<AssemblyName>Api</AssemblyName>
+		<AssemblyVersion>1.0.1.0</AssemblyVersion>
+		<FileVersion>1.0.1.0</FileVersion>
+		<Version>1.0.1.0</Version>	
 	</PropertyGroup>
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0"/>

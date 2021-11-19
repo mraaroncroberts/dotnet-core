@@ -60,3 +60,5 @@
 /Users/schpeyeder/Documents/repos/dotnet-core/api/src/obj/Debug/net6.0/ref/Api.dll
 /Users/schpeyeder/Documents/repos/dotnet-core/api/src/obj/Debug/net6.0/Api.pdb
 /Users/schpeyeder/Documents/repos/dotnet-core/api/src/obj/Debug/net6.0/api.genruntimeconfig.cache
+/Users/schpeyeder/Documents/repos/dotnet-core/api/src/obj/Debug/net6.0/api.AssemblyInfoInputs.cache
+/Users/schpeyeder/Documents/repos/dotnet-core/api/src/obj/Debug/net6.0/api.AssemblyInfo.cs

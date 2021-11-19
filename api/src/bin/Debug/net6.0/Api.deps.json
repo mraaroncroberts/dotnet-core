@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "Api/0.0.0.1": {
+      "Api/1.0.1.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "Serilog": "2.10.0",
@@ -1163,7 +1163,7 @@
     }
   },
   "libraries": {
-    "Api/0.0.0.1": {
+    "Api/1.0.1.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
