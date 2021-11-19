@@ -1,0 +1,18 @@
+# first stage
+FROM mcr.microsoft.com/dotnet/nightly/sdk:6.0 AS build
+WORKDIR /build-source
+
+# copy csproj and restore as distinct
+COPY src/*.csproj ./src/
+RUN dotnet restore src/api.csproj
+
+# copy everythig else and build the site
+COPY src/. ./src/
+WORKDIR /build-source/src
+RUN dotnet publish -c release -o /output --no-restore
+
+# Final stage
+FROM mcr.microsoft.com/dotnet/nightly/aspnet:6.0
+WORKDIR /output
+COPY --from=build /output ./
+ENTRYPOINT ["dotnet", "api.dll"]

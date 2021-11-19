@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/schpeyeder/Documents/repos/dotnet-core/hello/hello.csproj": {}
+  },
+  "projects": {
+    "/Users/schpeyeder/Documents/repos/dotnet-core/hello/hello.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/schpeyeder/Documents/repos/dotnet-core/hello/hello.csproj",
+        "projectName": "hello",
+        "projectPath": "/Users/schpeyeder/Documents/repos/dotnet-core/hello/hello.csproj",
+        "packagesPath": "/Users/schpeyeder/.nuget/packages/",
+        "outputPath": "/Users/schpeyeder/Documents/repos/dotnet-core/hello/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/schpeyeder/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.2.21505.57/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

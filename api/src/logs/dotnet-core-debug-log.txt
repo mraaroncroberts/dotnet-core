@@ -1,0 +1,129 @@
+11/15/2021 01:22:53 -05:00 Application shutdown!
+11/15/2021 01:26:19 -05:00 Applicaiton configured! Running: "Development"
+11/15/2021 01:26:32 -05:00 Parrot here!
+11/15/2021 01:26:32 -05:00 HTTP "GET" "/parrot" responded 200 in 60.5914 ms
+11/15/2021 01:26:38 -05:00 Parrot here!
+11/15/2021 01:26:38 -05:00 HTTP "GET" "/parrot" responded 200 in 1.2011 ms
+11/15/2021 01:26:43 -05:00 Application shutdown!
+11/15/2021 01:28:50 -05:00 Applicaiton configured! Running: "Development"
+11/15/2021 01:28:56 -05:00 HTTP "GET" "/swagger" responded 301 in 38.5928 ms
+11/15/2021 01:28:56 -05:00 HTTP "GET" "/swagger/index.html" responded 200 in 62.8311 ms
+11/15/2021 01:28:56 -05:00 HTTP "GET" "/swagger/swagger-ui.css" responded 200 in 13.6272 ms
+11/15/2021 01:28:56 -05:00 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 54.7746 ms
+11/15/2021 01:29:20 -05:00 Application shutdown!
+11/15/2021 11:48:37 -05:00 Unable to launch Application!
+System.InvalidOperationException: Body was inferred but the method does not allow inferred body parameters.
+Below is the list of parameters that we found: 
+
+Parameter           | Source                        
+---------------------------------------------------------------------------------
+service             | Body (Inferred)
+context             | Services (Inferred)
+
+
+Did you mean to register the "Body (Inferred)" parameter(s) as a Service or apply the [FromService] or [FromBody] attribute?
+
+
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArguments(ParameterInfo[] parameters, FactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateTargetableRequestDelegate(MethodInfo methodInfo, Expression targetExpression, FactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.Create(Delegate handler, RequestDelegateFactoryOptions options)
+   at Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.Map(IEndpointRouteBuilder endpoints, RoutePattern pattern, Delegate handler, Boolean disableInferBodyFromParameters)
+   at Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapMethods(IEndpointRouteBuilder endpoints, String pattern, IEnumerable`1 httpMethods, Delegate handler)
+   at Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapGet(IEndpointRouteBuilder endpoints, String pattern, Delegate handler)
+   at Program.<Main>$(String[] args) in /Users/schpeyeder/Documents/repos/dotnet-core/api/src/Program.cs:line 38
+11/15/2021 11:48:37 -05:00 Application shutdown!
+11/15/2021 11:49:43 -05:00 Applicaiton configured! Running: "Development"
+11/15/2021 11:49:46 -05:00 Application shutdown!
+11/15/2021 11:50:39 -05:00 Unable to launch Application!
+System.InvalidOperationException: Body was inferred but the method does not allow inferred body parameters.
+Below is the list of parameters that we found: 
+
+Parameter           | Source                        
+---------------------------------------------------------------------------------
+service             | Body (Inferred)
+
+
+Did you mean to register the "Body (Inferred)" parameter(s) as a Service or apply the [FromService] or [FromBody] attribute?
+
+
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArguments(ParameterInfo[] parameters, FactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateTargetableRequestDelegate(MethodInfo methodInfo, Expression targetExpression, FactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.Create(Delegate handler, RequestDelegateFactoryOptions options)
+   at Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.Map(IEndpointRouteBuilder endpoints, RoutePattern pattern, Delegate handler, Boolean disableInferBodyFromParameters)
+   at Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapMethods(IEndpointRouteBuilder endpoints, String pattern, IEnumerable`1 httpMethods, Delegate handler)
+   at Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapGet(IEndpointRouteBuilder endpoints, String pattern, Delegate handler)
+   at Program.<Main>$(String[] args) in /Users/schpeyeder/Documents/repos/dotnet-core/api/src/Program.cs:line 38
+11/15/2021 11:50:39 -05:00 Application shutdown!
+11/15/2021 11:55:39 -05:00 Unable to launch Application!
+System.InvalidOperationException: Body was inferred but the method does not allow inferred body parameters.
+Below is the list of parameters that we found: 
+
+Parameter           | Source                        
+---------------------------------------------------------------------------------
+service             | Body (Inferred)
+
+
+Did you mean to register the "Body (Inferred)" parameter(s) as a Service or apply the [FromService] or [FromBody] attribute?
+
+
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArguments(ParameterInfo[] parameters, FactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateTargetableRequestDelegate(MethodInfo methodInfo, Expression targetExpression, FactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.Create(Delegate handler, RequestDelegateFactoryOptions options)
+   at Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.Map(IEndpointRouteBuilder endpoints, RoutePattern pattern, Delegate handler, Boolean disableInferBodyFromParameters)
+   at Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapMethods(IEndpointRouteBuilder endpoints, String pattern, IEnumerable`1 httpMethods, Delegate handler)
+   at Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapGet(IEndpointRouteBuilder endpoints, String pattern, Delegate handler)
+   at Program.<Main>$(String[] args) in /Users/schpeyeder/Documents/repos/dotnet-core/api/src/Program.cs:line 39
+11/15/2021 11:55:39 -05:00 Application shutdown!
+11/15/2021 11:56:50 -05:00 Applicaiton configured! Running: "Development"
+11/15/2021 11:56:58 -05:00 HTTP "GET" "/parrot" responded 500 in 37.5482 ms
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__3() in /Users/schpeyeder/Documents/repos/dotnet-core/api/src/Program.cs:line 42
+   at lambda_method2(Closure , Object , HttpContext )
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass36_0.<Create>b__0(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+11/15/2021 11:56:58 -05:00 An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__3() in /Users/schpeyeder/Documents/repos/dotnet-core/api/src/Program.cs:line 42
+   at lambda_method2(Closure , Object , HttpContext )
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass36_0.<Create>b__0(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+11/15/2021 11:57:48 -05:00 Application shutdown!
+11/15/2021 11:57:52 -05:00 Applicaiton configured! Running: "Development"
+11/15/2021 11:57:58 -05:00 Parrot here!
+11/15/2021 11:57:58 -05:00 HTTP "GET" "/parrot" responded 200 in 49.2623 ms
+11/15/2021 11:59:04 -05:00 Application shutdown!
+11/15/2021 12:07:33 -05:00 Applicaiton configured! Running: "Development"
+11/15/2021 12:11:22 -05:00 Application shutdown!
+11/15/2021 12:11:36 -05:00 "api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" configured! Running: "Development"
+11/15/2021 12:12:35 -05:00 "api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" configured! Running: "Development"
+11/15/2021 12:21:49 -05:00 "api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" configured! Running: "Development"
+11/15/2021 12:21:52 -05:00 Parrot here!
+11/15/2021 12:21:52 -05:00 HTTP "GET" "/parrot" responded 200 in 85.6802 ms
+11/15/2021 12:29:36 -05:00 "api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" configured! Running: "Development"
+11/15/2021 12:31:38 -05:00 "api, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null" configured! Running: "Development"
+11/15/2021 12:32:30 -05:00 "api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" configured! Running: "Development"
+11/15/2021 12:37:45 -05:00 "api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" configured! Running: "Development"
+11/15/2021 12:38:04 -05:00 "api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" configured! Running: "Development"
+11/15/2021 12:38:15 -05:00 "api, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null" configured! Running: "Development"
+11/15/2021 12:39:42 -05:00 "api, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null" configured! Running: "Development"
+11/15/2021 12:41:46 -05:00 "api, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null" configured! Running: "Development"
+11/15/2021 12:42:58 -05:00 "api, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null" configured! Running: "Development"
+11/15/2021 12:47:59 -05:00 "api, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null" configured! Running: "Development"
+11/15/2021 12:59:45 -05:00 "api, Version=1.0.0.5957, Culture=neutral, PublicKeyToken=null" configured! Running: "Development"
+11/15/2021 13:04:39 -05:00 "ApiTest, Version=1.0.0.459, Culture=neutral, PublicKeyToken=null" configured! Running: "Development"
+11/15/2021 13:05:25 -05:00 "Api, Version=1.0.0.529, Culture=neutral, PublicKeyToken=null" configured! Running: "Development"
+11/15/2021 13:07:13 -05:00 "Api, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null" configured! Running: "Development"
+11/15/2021 13:09:55 -05:00 "Api, Version=0.0.0.1, Culture=neutral, PublicKeyToken=null" configured! Running: "Development"

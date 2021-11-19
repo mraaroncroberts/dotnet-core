@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "JEzb/IqCHjBlTJCju72fHiHIDrhOyhmMtom3W5YIAGvvIngUQY1S1yMhfx/Q1u1vGAiIY/Z71rF5eiSuuaKdLQ==",
+  "success": true,
+  "projectFilePath": "/Users/schpeyeder/Documents/repos/dotnet-core/webapi/src/dotnet-core.csproj",
+  "expectedPackageFiles": [
+    "/Users/schpeyeder/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/schpeyeder/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/schpeyeder/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/Users/schpeyeder/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/Users/schpeyeder/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/Users/schpeyeder/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,36 @@
+node { 
+    // Define Build variables 
+    def namespace = 'dotnet-core' 
+    def dockerImage = 'dotnet-core-api' // Referenced by the k8s/deployment.yaml
+    def service = 'dotnet-core-api-service' // Defined as a Service in k8s/deployment.yaml
+    
+    // Clone the repo 
+    checkout scm 
+    
+    // Stage 1 : Build the docker image. 
+    stage('Build') {         
+        sh("docker build --pull -t ${dockerImage}") 
+    } 
+    
+    // Stage 2 : Deploy Application to Kubernetes
+    stage('Deploy Application') { 
+        switch (namespace) { 
+            //Roll out to Dev Environment 
+            case "development": 
+                // Create namespace if it doesn't exist 
+                sh("kubectl get ns ${namespace} || kubectl create ns ${namespace}") 
+                
+                //Create or update resources 
+                sh("kubectl --namespace=${namespace} apply -f k8s/deployment.yaml")                 
+                
+                // Grab the external Ip address of the service             
+                sh("echo http://`kubectl --namespace=${namespace} get service/${service} --output=json | jq -r '.status.loadBalancer.ingress[0].ip'` > ${service}") 
+                break                         
+            default: 
+                sh("kubectl get ns ${namespace} || kubectl create ns ${namespace}")                 
+                sh("kubectl --namespace=${namespace} apply -f k8s/deployment.yaml")  
+                sh("echo http://`kubectl --namespace=${namespace} get service/${service} --output=json | jq -r '.status.loadBalancer.ingress[0].ip'` > ${service}") 
+                break 
+        } 
+    }
+}
